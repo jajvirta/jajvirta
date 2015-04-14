@@ -4,8 +4,9 @@ selvitettiin muun muassa sisentävätkö yhteisön jäsenet koodinsa
 tabulaattorimerkeillä vai välilyönneillä ja että mitkä ovat heidän
 suosikkitekstieditorinsa. Tässä on sama kysely Solitan devaajille.
 Kohdeyleisönä ovat ne Solitan työntekijät, jotka kokevat olevansa koodaajia,
-devaajia tai ylläpitäjiä, muodossa tai toisessa.  Kyselyyn on valikoitu minun
-mielestä olennaisimmat kysymykset Stack Overflow'n kyselystä.
+devaajia tai ylläpitäjiä, muodossa tai toisessa. Kyselyyn on valikoitu minun
+mielestä olennaisimmat kysymykset Stack Overflow'n kyselystä ja lisätty
+pari omaa. 
 
 Kyselyllä ei ole sen suurempaa tarkoitusta tai päämäärää kuin päästä vähän
 jyvälle Solitan devaajien mieltymyksistä ja taustoista. Tämä ei ole mikään
