@@ -1,0 +1,168 @@
+
+Stack Overflow -yhteisössä tehtiin kysely devaajille/ohjelmoijille, jossa
+selvitettiin muun muassa sisentävätkö yhteisön jäsenet koodinsa
+tabulaattorimerkeillä vai välilyönneillä ja että mitkä ovat heidän
+suosikkitekstieditorinsa. Tässä on sama kysely Solitan devaajille.
+Kohdeyleisönä ovat ne Solitan työntekijät, jotka kokevat olevansa koodaajia,
+devaajia tai ylläpitäjiä, muodossa tai toisessa.  Kyselyyn on valikoitu minun
+mielestä olennaisimmat kysymykset Stack Overflow'n kyselystä.
+
+Kyselyllä ei ole sen suurempaa tarkoitusta tai päämäärää kuin päästä vähän
+jyvälle Solitan devaajien mieltymyksistä ja taustoista. Tämä ei ole mikään
+virallinen kysely vaan lähtöisin yhden asiasta kiinnostuneen aloitteesta.
+Erillistä tuntikirjauskohdetta tälle ei ole, mutta kyselyn vastaamiseen ei
+pitäisi montaa minuuttia mennä. 
+
+1) Kuinka kauan olet ohjelmoinut ylipäätään?
+
+Yli 11 vuotta
+6-10 vuotta
+2-5 vuotta
+1-2 vuotta
+alle vuoden
+
+
+2) Kuinka kauan olet ohjelmoinut ammatiksesi?
+
+Yli 11 vuotta
+6-10 vuotta
+2-5 vuotta
+1-2 vuotta
+alle vuoden
+
+
+3) Koulutus ohjelmointiin
+
+Itseoppinut
+Työssä oppinut
+Verkko-opiskelu tai vastaava
+Opintoja ammattikoulussa, ammattikorkeassa tai korkeakoulussa
+Alempi korkeakoulututkinto alalta
+Ylempi korkeakoulututkinto alalta
+Tohtorintutkinto tai vastaava alalta
+Ammattikoulututkinto alalta
+Ammattikorkeakoulututkinto alalta
+Muu
+
+4) Mikä näistä kuvaa parhaiten rooliasi ohjelmointiprojekteissa viimeisen muutaman kuukauden ajan?
+
+Arkkitehti, suunnittelija
+Fullstack veppikehittäjä
+Back-end -veppikehittäjä
+Fronttikehittäjä
+Desktop/GUI-koodaaja
+Muu ohjelmistokehittäjä (ei veppikoodausta)
+Ylläpitäjä, infra-asiantuntija, devops-asiantuntija
+Tietokanta-asiantuntija, tietokantaylläpitäjä
+BI/Data warehouse -asiantuntija
+Integraatioasiantuntija
+QA/Testausasiantuntija
+PO/Product manager
+
+5) Kuinka paljon käytät aikaa sivuprojekteihin ja/tai open source -projekteihin?
+
+20+ tuntia viikossa
+10-20 tuntia
+5-10 tuntia
+2-5 tuntia
+1-2 tuntia
+Ei yhtään
+
+6) Mikä on pääasiallinen ohjelmointikielesi viimeisen muutaman kuukauden aikana?
+
+Java
+Javascript
+SQL
+C#
+PHP
+Python
+C
+C++
+Ruby
+Clojure
+Scala
+Objective-C
+Sh/Bash
+Haskell
+Go
+Rust
+Lua
+Muu, mikä?
+
+7) Mistä ohjelmointikielestä pidät eniten?
+
+samat
+
+8) Mistä työssäsi käyttämästä ohjelmointikielestä pidät vähiten?
+
+samat
+
+9) Millä ohjelmointikielellä haluaisit koodata? (Olettaen että pääsisit 
+tekemään hommaa muiden samaa kieltä jo osaavien kanssa.)
+
+samat
+
+11) Mikä on pääasiallisen kehitysympäristösi käyttöjärjestelmä?
+
+Windows 7
+Windows 8
+Windows XP
+Mac OS X
+Linux
+Muu, mikä?
+
+12) Mitä tekstieditoria käytät pääasiallisesti? (Tässä ei lasketa 
+tekstieditoriksi IDEjä kuten IDEA, Eclipse, jne)
+
+Vi/Vim
+Emacs/XEmacs
+Atom.io
+TextMate
+Sublime Text
+NotePad++
+Notepad
+Coda
+Muu, mikä?
+
+
+13) Mitä IDE-työkalua käytät pääasiallisesti kehitystyöhön?
+
+IntelliJ IDEA
+Eclipse
+NetBeans
+Visual Studio
+Sublime
+Vim
+Emacs/XEmacs
+Muu, mikä?
+
+
+14) Mitä versionhallintajärjestelmää käytät pääasiallisesti?
+
+Git
+SVN
+Mercurial
+CVS
+En käytä versionhallintaa
+Muu, mikä
+
+
+15) Sisentäisitkö koodin tabulaattorimerkeillä vai väliyöntimerkeillä jos saisit itse päättä? (Ts. onko 
+lähdekoodissa sisennys "\t" vai "    "?)
+
+Tabulaattorimerkeillä
+Välilyönneillä
+Se riippuu
+Häh?
+
+16) Verrattuna muihin Solitan devaajiin, koetko olevasi ohjelmointitaidoiltasi ..
+
+.. parhaassa neljänneksessä?
+.. toiseksi parhaassa neljänneksessä?
+.. kolmanneksi parhaassa neljänneksessä?
+.. viimeisessä neljänneksessä? 
+
+
+
+
+
