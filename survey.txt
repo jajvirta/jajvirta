@@ -1,4 +1,6 @@
 
+Puolivakava (mutta nopea) kysely kaikille Solitan ohjelmoijille
+
 Stack Overflow -yhteisössä tehtiin kysely devaajille/ohjelmoijille, jossa
 selvitettiin muun muassa sisentävätkö yhteisön jäsenet koodinsa
 tabulaattorimerkeillä vai välilyönneillä ja että mitkä ovat heidän
@@ -13,6 +15,9 @@ jyvälle Solitan devaajien mieltymyksistä ja taustoista. Tämä ei ole mikään
 virallinen kysely vaan lähtöisin yhden asiasta kiinnostuneen aloitteesta.
 Erillistä tuntikirjauskohdetta tälle ei ole, mutta kyselyn vastaamiseen ei
 pitäisi montaa minuuttia mennä. 
+
+Jos vastauksia kertyy riittävä määrä, niin teen yhteenvedon kyselyn tuloksista
+Solitan intraan. 
 
 1) Kuinka kauan olet ohjelmoinut ylipäätään?
 
