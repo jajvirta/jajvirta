@@ -147,8 +147,23 @@ CVS
 En käytä versionhallintaa
 Muu, mikä
 
+15) Mitä konfiguraationhallintatyökalu tai skriptikieli on ollut projektiesi tärkein
+työkalu ympäristöjen hallintaan ja deployment pipelineen?
 
-15) Sisentäisitkö koodin tabulaattorimerkeillä vai väliyöntimerkeillä jos saisit itse päättä? (Ts. onko 
+Ansible
+CFEngine
+Chef
+Manuaalinen työ etäyhteyksien kautta
+Puppet
+Powershell-skriptit
+Salt
+Shell-skriptit
+Python
+Ruby
+Perl
+Muu, mikä?
+
+16) Sisentäisitkö koodin tabulaattorimerkeillä vai väliyöntimerkeillä jos saisit itse päättä? (Ts. onko 
 lähdekoodissa sisennys "\t" vai "    "?)
 
 Tabulaattorimerkeillä
@@ -156,7 +171,7 @@ Välilyönneillä
 Se riippuu
 Häh?
 
-16) Verrattuna muihin Solitan devaajiin, koetko olevasi ohjelmointitaidoiltasi ..
+17) Verrattuna muihin Solitan devaajiin, koetko olevasi ohjelmointitaidoiltasi ..
 
 .. parhaassa neljänneksessä?
 .. toiseksi parhaassa neljänneksessä?
