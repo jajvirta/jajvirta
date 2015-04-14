@@ -47,11 +47,12 @@ Muu
 4) Mikä näistä kuvaa parhaiten rooliasi ohjelmointiprojekteissa viimeisen muutaman kuukauden ajan?
 
 Arkkitehti, suunnittelija
-Fullstack veppikehittäjä
+Fullstack-veppikehittäjä
 Back-end -veppikehittäjä
 Fronttikehittäjä
 Desktop/GUI-koodaaja
-Muu ohjelmistokehittäjä (ei veppikoodausta)
+Muu ohjelmistokehittäjä 
+Mobiilikehittäjä
 Ylläpitäjä, infra-asiantuntija, devops-asiantuntija
 Tietokanta-asiantuntija, tietokantaylläpitäjä
 BI/Data warehouse -asiantuntija
@@ -59,7 +60,7 @@ Integraatioasiantuntija
 QA/Testausasiantuntija
 PO/Product manager
 
-5) Kuinka paljon käytät aikaa sivuprojekteihin ja/tai open source -projekteihin?
+5) Kuinka paljon käytät aikaa sivuprojekteihin tai open source -projekteihin työajan ulkopuolella?
 
 20+ tuntia viikossa
 10-20 tuntia
@@ -68,7 +69,7 @@ PO/Product manager
 1-2 tuntia
 Ei yhtään
 
-6) Mikä on pääasiallinen ohjelmointikielesi viimeisen muutaman kuukauden aikana?
+6) Millä ohjelmointikielellä olet koodannut eniten viimeisen muutaman kuukauden aikana töissäsi?
 
 Java
 Javascript
@@ -111,8 +112,7 @@ Mac OS X
 Linux
 Muu, mikä?
 
-12) Mitä tekstieditoria käytät pääasiallisesti? (Tässä ei lasketa 
-tekstieditoriksi IDEjä kuten IDEA, Eclipse, jne)
+12) Mitä tekstieditoria käytät? (Tähän ei lasketa IDEjä kuten IDEA, Eclipse, jne)
 
 Vi/Vim
 Emacs/XEmacs
@@ -122,6 +122,7 @@ Sublime Text
 NotePad++
 Notepad
 Coda
+Pico/Nano
 Muu, mikä?
 
 
