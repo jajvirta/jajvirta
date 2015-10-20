@@ -32,4 +32,27 @@ we assert the alertness:
         assertTrue(person.alertness() > 8);
     }
 
+You might argue that you do not feel particularly awake just a 2pm. We run into
+a first major complication in the system. If you observe the samples during the
+whole awake time, you'll notice that it typically follows a recurring pattern.
+After a normal night of sleep, the alertness right after waking up is not very
+consistent. Especially if the person is woken by an alarm clock. 
+
+But since our testing framework comes with a lot of handy preprocessors, we can
+make sure that if the 
+
+    @Test
+    @RunAfterWakingUp
+    @RunIfSleepPhaseRightBeforeWaking(phases=REM, NREM_1, NREM_2)
+    shouldFeelOKIfWokenInLightSleep() {
+        assertTrue(person.alertness() > 4);
+    }
+
+
+
+
+
+
+
+
 
