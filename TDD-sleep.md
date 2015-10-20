@@ -48,16 +48,8 @@ if we wake up in the right sleep phase, we should feel pretty ok:
         assertTrue(person.alertness() > 4);
     }
 
-If it so happens that our person does wake after certain deep sleep stages, we
-have to make sure 
-
-    @Influence
-    @RunAfterWakingUp
-    @RunIfSleepPhaseRightBeforeWaking({NREM_3, NREM_4}) 
-    shouldTakeSomeTimeToComeBacktoLife() {
-        person.drink(strongCoffee);
-        person.breathe(slowly);
-    }
+If the sleep phase right before waking up is {NREM_3, NREM_4}, it doesn't matter
+how you've slept ...
 
 
 If we continue prodding the system like this, a pattern like this will emerge:
