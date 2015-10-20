@@ -51,15 +51,15 @@ make sure that if the
 If we continue prodding the system like this, the pattern will emerge quite like
 this:
 
-   |             
-   |            -
-   |           / \          ^
-   |    ---   /  |      alertness
-   |   /   \_/   \          v
-   |  /           |
-   | /            |
-   --------------------------------------------------
-      time of day
+    |             
+    |            -
+    |           / \          ^
+    |    ---   /  |      alertness
+    |   /   \_/   \          v
+    |  /           |
+    | /            |
+    --------------------------------------------------
+       time of day
 
 
 
