@@ -48,6 +48,19 @@ make sure that if the
         assertTrue(person.alertness() > 4);
     }
 
+If we continue prodding the system like this, the pattern will emerge quite like
+this:
+
+   |             
+   |            -
+   |           / \          ^
+   |    ---   /  |      alertness
+   |   /   \_/   \          v
+   |  /           |
+   | /            |
+   --------------------------------------------------
+      time of day
+
 
 
 
