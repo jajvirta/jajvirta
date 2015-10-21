@@ -96,17 +96,19 @@ test](http://www.sleepeducation.com/disease-detection/multiple-sleep-latency-tes
 (MSLT).  A person with no sleep debt cannot, in fact, fall asleep even during
 the afternoon dip in alertness.
 
+## Deeper look into the alertness() measure
+
 A quick glance into our person API reveals that the alertness measurement is
 actually only a kind of proxy:
 
     float alertness() {
-        return normalizeSubjectObservationToScale(this.observeAlertness()), 0..10);
+        return normalizeSubjectObservationToScale(this.observeAlertness(), 0..10);
     }
 
-It's not, by definition, objective measure and not even very reliable.
-Unfortunately no API that could give an objective measure of the sleep debt has
-been released yet. We could try to use the MSLT, but that would be a huge
-inconvenience for our actual day to day operations. 
+It's not, by definition, an objective measure and it's not even a very reliable
+measure.  Unfortunately no API that could give an objective measure of the sleep
+debt has been released yet. We could try to use the MSLT, but that would be a
+huge inconvenience for our actual day to day operations. 
 
 If we let the system run wild under this simple test, our monitoring system
 would see constant test failures. In fact, typical running system would
@@ -127,9 +129,9 @@ monkey-patch the check itself to something like:
 Or even manipulating the threshold. But since we're controlling the experiment
 we don't have to worry about such unintended injections. 
 
-## How to avoid test failures for alertness()
-
 But it leaves us with the problem of constant test failures. 
+
+## How to avoid test failures for alertness()
 
 The optimal solution would be to just declare:
 
