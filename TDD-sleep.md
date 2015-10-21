@@ -152,7 +152,7 @@ In fact, if we glance into the implementation of such methods, we'll find
 something like this:
 
     void goToSleep() {
-        if rewardForSleeping(8 hours) > threshold {
+        if rewardForSleeping(8 hours) > rewardForCurrentActivity() {
             this.actuallyGoToSleep();
         }
     }
@@ -160,6 +160,17 @@ something like this:
     float rewardForSleeping(delay) {
         return 1 / (1 + degree * delay);
     }
+
+The rewardForSleeping method is a time-inconsistent formula for rewarding
+delayed rewards. That's yet another unfortunate feature of the system. It means
+that system will disproportionally value rewards that are close in time.
+Activities that bring rewards in the distant future are heavily *discounted*.
+This feature is sometimes called (hyperbolic
+discounting)[https://en.wikipedia.org/wiki/Hyperbolic_discounting].
+
+
+
+
 
 
 
