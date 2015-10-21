@@ -121,6 +121,8 @@ monkey-patch the check itself to something like:
         }
     }
 
+(Notice the anti-pattern of try-catch-log.)
+
 Or even manipulating the threshold. But since we're controlling the experiment
 we don't have to worry about such unintended injections. 
 
@@ -134,8 +136,17 @@ The optimal solution would be to just declare:
         person.goToSleep(); 
     }
 
-But unfortunately such API does not exist. Well, the method does *exist* but the
-actual implementation leaves much to desire. 
+
+But unfortunately such API does not exist for the person. Well, the *method*
+does *exist* but the actual implementation leaves much to desire. It might work
+for the first few times, and occasionally thereafter, but probability of the
+method invocation to make any difference to the running system is low enough to
+make little difference in the long run. This design has its own strengths and
+weaknesses, but it's unfortunate for our exercise even to leave the method
+available. It would leave the system running with those dubious exception
+shadowing and false sense of decision.
+
+
 
 
 
