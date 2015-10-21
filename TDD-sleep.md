@@ -180,6 +180,11 @@ but only because the over-whelming sleepyness overrides all other functions. The
 values. 
 
 
+Now, this is not necessarily a hopeless approximation of reasonable boundaries
+for the running system. For hundreds of thousands of years, this is how we've
+decided. But it's in fact the realities of the modern life that has made the
+situation more complicated. 
+
 
 
 
