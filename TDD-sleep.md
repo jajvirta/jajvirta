@@ -147,21 +147,22 @@ But unfortunately such API does not exist for the person. Well, the *method*
 does *exist* but the actual implementation leaves much to desire. It might work
 for the first few times, and occasionally thereafter, but probability of the
 method invocation to make any difference to the running system is low enough to
-make little difference in the long run. This design has its own strengths and
-weaknesses, but it's unfortunate for our exercise even to leave the method
-available. It would leave the system running with that dubious exception
-shadowing and false sense of decision.
+make practically no incluence to the system in the long run. This design has its
+own strengths and weaknesses, but it's unfortunate for our exercise even to
+leave the method available. It would leave the system running with that dubious
+exception shadowing and false sense of decision.
 
 In fact, if we glance into the implementation of such methods, we'll find
 something like this:
 
     void goToSleep() {
-        if rewardForSleeping(8 hours) > rewardForCurrentActivity() {
+        if rewardFor(sleeping) > rewardFor(this.currentActivity()) {
             this.actuallyGoToSleep();
         }
     }
 
-    float rewardForSleeping(delay) {
+    float rewardFor(activity) {
+        delay = whenRewardedFor(activity);
         return 1 / (1 + degree * delay);
     }
 
