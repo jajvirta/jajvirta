@@ -107,6 +107,21 @@ Unfortunately no API that could give an objective measure of the sleep debt has
 been released yet. We could try to use the MSLT, but that would be a huge
 inconvenience for our actual day to day operations. 
 
+If we let the system run wild under this simple test, our monitoring system
+would see constant test failures. In fact, typical running system would
+monkey-patch the check itself to something like:
+
+    @Test
+    @RunAfterWakingUp(delta=6.5 hours)
+    shouldFeelAlertDuringTheDay() {
+        try {
+            assertTrue(person.alertness() > 8);
+        } catch AssertionError {
+            log.warn("Everything's fine. I'll just drink some coffee.");
+        }
+    }
+
+Or even manipulating the threshold. 
 
 
 
