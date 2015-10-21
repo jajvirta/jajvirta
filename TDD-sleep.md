@@ -53,7 +53,7 @@ early morning too:
         assertTrue(person.alertness() > 4);
     }
 
-If the sleep phase right before waking up is {NREM_3, NREM_4}, we cannot make
+If the sleep phase right before waking up is {NREM_3, NREM_4}, we could not make
 any guarantees of the alertness of the system. And since the
 RunIfSleepPhaseRightBeforeWaking pre-processor doesn't currently exist, we
 cannot and need not make any checks about the early morning feelings. 
@@ -100,7 +100,7 @@ A quick glance into our person API reveals that the alertness measurement is
 actually only a kind of proxy:
 
     float alertness() {
-        return normalizeToScale(this.observeAlertness()), 0..10);
+        return normalizeSubjectObservationToScale(this.observeAlertness()), 0..10);
     }
 
 It's not, by definition, objective measure and not even very reliable.
@@ -145,8 +145,21 @@ for the first few times, and occasionally thereafter, but probability of the
 method invocation to make any difference to the running system is low enough to
 make little difference in the long run. This design has its own strengths and
 weaknesses, but it's unfortunate for our exercise even to leave the method
-available. It would leave the system running with those dubious exception
+available. It would leave the system running with that dubious exception
 shadowing and false sense of decision.
+
+In fact, if we glance into the implementation of such methods, we'll find
+something like this:
+
+    void goToSleep() {
+        if rewardForSleeping(8 hours) > threshold {
+            this.actuallyGoToSleep();
+        }
+    }
+
+    float rewardForSleeping(delay) {
+        return 1 / (1 + degree * delay);
+    }
 
 
 
