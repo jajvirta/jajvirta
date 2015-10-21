@@ -147,11 +147,7 @@ But unfortunately such API does not exist for the person. Well, the *method*
 does *exist* but the actual implementation leaves much to desire. It might work
 for the first few times, and occasionally thereafter, but probability of the
 method invocation to make any difference to the running system is low enough to
-make practically no incluence at all. This design has its own strengths and
-weaknesses, but it's unfortunate that a method such as goToSleep() is even
-available. It leaves us with a false sense of being to able to decide when we
-are going to sleep and eventually the system would monkey-patch the alertness
-test as shown above.
+make practically no incluence at all. 
 
 If we glance into the implementation of methods such as goToSleep(), we'll find
 that they are something like this:
@@ -175,9 +171,8 @@ This feature is sometimes called [hyperbolic
 discounting](https://en.wikipedia.org/wiki/Hyperbolic_discounting).
 
 Of course, the reward for sleeping does eventually win over, but it's typically
-not because we start to appreciate the feeling our future self will experience,
-but only because the over-whelming sleepyness overrides all other functions. The
-*delay* in the whenRewardedFor() method actually starts giving extremely low
+not because we start to appreciate the feeling our future self will experience.
+The *delay* in the whenRewardedFor() method actually starts giving extremely low
 values. 
 
 ## Sounds like a reasonable implementation to me, eh?
