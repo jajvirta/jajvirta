@@ -126,7 +126,7 @@ monkey-patch the check itself to something like:
 
 (Notice the anti-pattern of try-catch-log.)
 
-Or even manipulating the threshold. But since we're controlling the experiment
+Or it could manipulate the threshold. But since we're controlling the experiment
 we don't have to worry about such unintended injections. 
 
 But it leaves us with the problem of constant test failures. 
@@ -148,12 +148,13 @@ does *exist* but the actual implementation leaves much to desire. It might work
 for the first few times, and occasionally thereafter, but probability of the
 method invocation to make any difference to the running system is low enough to
 make practically no incluence to the system in the long run. This design has its
-own strengths and weaknesses, but it's unfortunate for our exercise even to
-leave the method available. It would leave the system running with that dubious
-exception shadowing and false sense of decision.
+own strengths and weaknesses, but it's unfortunate that a method such as
+goToSleep() is even available. It leaves us with a false sense of being to able
+to decide when we are going to sleep and eventually the system would
+monkey-patch the alertness as shown above.
 
-In fact, if we glance into the implementation of such methods, we'll find
-something like this:
+If we glance into the implementation of methods such as goToSleep(), we'll find
+that they are something like this:
 
     void goToSleep() {
         if rewardFor(sleeping) > rewardFor(this.currentActivity()) {
