@@ -80,6 +80,20 @@ up. So we rewrite the original test more like this:
         assertTrue(person.alertness() > 8);
     }
 
+The reason we gauge the alertness close to the afternoon dip is that it seems to
+be the most realible and quick indication of suboptimal amount of sleep. In
+fact, one of the first methods to assess person's sleep debt was to measure the
+time it took for the person to fall asleep during different times during the
+day. Such measure is called the [multiple sleep latency
+test](http://www.sleepeducation.com/disease-detection/multiple-sleep-latency-test/overview-and-facts).
+A person with no sleep debt cannot, in fact, fall asleep even during the
+afternoon dip in alertness.
+
+
+
+
+
+
 
 
 
