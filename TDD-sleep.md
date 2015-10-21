@@ -166,7 +166,7 @@ something like this:
         return 1 / (1 + degree * delay);
     }
 
-The rewardFor method is a time-inconsistent formula for rewarding
+The rewardFor method is a time-inconsistent formula for giving value to
 delayed rewards. That's yet another unfortunate feature of the system. It means
 that system will disproportionally value rewards that are close in time.
 Activities that bring rewards in the distant future are heavily *discounted*.
