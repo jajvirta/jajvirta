@@ -175,9 +175,10 @@ discounting](https://en.wikipedia.org/wiki/Hyperbolic_discounting).
 
 Of course, the reward for sleeping does eventually win over, but it's typically
 not because we start to appreciate the feeling our future self will experience,
-but only because the over-whelming sleepyness overrides all other functions. (The
-code sample above is simplified to emphasize the "irrational" rewarding
-mechanisms our brains work under.)
+but only because the over-whelming sleepyness overrides all other functions. The
+*delay* in the whenRewardedFor() method actually starts giving extremely low
+values. 
+
 
 
 
