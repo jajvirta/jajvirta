@@ -6,10 +6,9 @@ Let's say you were given access to APIs involving a real person. You had various
 ways to influence, directly or indirectly, the person's behavior. You also had a
 set of measurement interfaces, though mostly badly documented and somewhat
 unreliable. Let's also assume that your task would be to optimize the
-effectiveness of the person through manipulating her sleep. 
-
-You have a testing harness that takes samples of the state of the system every
-few minutes. 
+effectiveness of the person through manipulating her sleep.  For that, you have
+a testing harness that takes samples of the state of the system every few
+minutes. 
 
 ## Understanding the system through testing
 
@@ -22,11 +21,12 @@ during the day:
     }
 
 Alertness has been normalized to be a floating point number between 0 and 10,
-where 10 extremely alert and energized and 0 is being basically asleep. I've
-picked an arbitrary threshold value, but we'll get back to that.
+where 10 means extremely alert and energized and 0 is being as close to asleep
+as possible. For first iteration, I've picked an arbitrary threshold value, but
+we'll get back to that.
 
-Now, our imaginary person isn't alert around the clock. Let's pick a time when
-we assert the alertness:
+Now, our person isn't alert around the clock. Let's pick a time when we assert
+the alertness:
 
     @Test 
     @RunOnlyAt(2pm)
@@ -34,8 +34,8 @@ we assert the alertness:
         assertTrue(person.alertness() > 8);
     }
 
-You might argue that you do not feel particularly awake just a 2pm. We run into
-a first major complication in the system. If you observe the samples during the
+You might argue that you do not feel particularly awake at 2pm. We run into a
+first major complication in the system. If you observe the samples during the
 whole awake time, you'll notice that it typically follows a recurring pattern.
 
 After a normal night of sleep, the alertness right after waking up is not very
