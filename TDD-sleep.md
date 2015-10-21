@@ -165,8 +165,8 @@ The rewardForSleeping method is a time-inconsistent formula for rewarding
 delayed rewards. That's yet another unfortunate feature of the system. It means
 that system will disproportionally value rewards that are close in time.
 Activities that bring rewards in the distant future are heavily *discounted*.
-This feature is sometimes called (hyperbolic
-discounting)[https://en.wikipedia.org/wiki/Hyperbolic_discounting].
+This feature is sometimes called [hyperbolic
+discounting](https://en.wikipedia.org/wiki/Hyperbolic_discounting).
 
 
 
