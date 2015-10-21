@@ -88,7 +88,7 @@ up. So we rewrite the original test more like this:
     }
 
 The reason we gauge the alertness close to the afternoon dip is that it seems to
-be the most realible and quick indication of suboptimal amount of sleep. In
+be the most reliable and quick indication of suboptimal amount of sleep. In
 fact, one of the first methods to assess person's sleep debt was to measure the
 time it took for the person to fall asleep during different times during the
 day. Such measure is called the [multiple sleep latency
@@ -102,7 +102,7 @@ A quick glance into our person API reveals that the alertness measurement is
 actually only a kind of proxy:
 
     float alertness() {
-        return normalizeSubjectObservationToScale(this.observeAlertness(), 0..10);
+        return normalizeSubjectiveObservationToScale(this.observeAlertness(), 0..10);
     }
 
 It's not, by definition, an objective measure and it's not even a very reliable
@@ -182,8 +182,9 @@ values.
 
 Now, this is not necessarily a hopeless approximation of reasonable boundaries
 for the running system. For hundreds of thousands of years, this is how we've
-decided. But it's in fact the realities of the modern life that has made the
-situation more complicated. 
+decided. But it's in fact the realities of the modern life (combined with *yet
+another* unfortunate feature of the system) that has made the situation more
+complicated. 
 
 
 
