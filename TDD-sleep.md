@@ -69,7 +69,7 @@ considerable drop in alertness typically during the afternoon --at "siesta
 time"--. Then we continue to feel more awake late into the evening until our
 sleeping hormones kick and we crash into sleep again.
 
-The exact shape and position relative to the clock of the curve depends
+The exact shape of the curve and its position relative to the clock depends
 primarily on long-term sleep amount and the time the person woke up. The
 afternoon dip in alertness typically occurs right around 6-7 hours after waking
 up. So we rewrite the original test more like this:
