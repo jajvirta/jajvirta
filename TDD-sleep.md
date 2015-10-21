@@ -29,7 +29,7 @@ Now, our person isn't alert around the clock. Let's pick a time when we assert
 the alertness:
 
     @Test 
-    @RunOnlyAt(2pm)
+    @RunAt(2pm)
     shouldFeelAlertDuringTheDay() {
         assertTrue(person.alertness() > 8);
     }
@@ -121,7 +121,28 @@ monkey-patch the check itself to something like:
         }
     }
 
-Or even manipulating the threshold. 
+Or even manipulating the threshold. But since we're controlling the experiment
+we don't have to worry about such unintended injections. 
+
+But it leaves us with the problem of constant test failures. 
+
+The optimal solution would be to just declare:
+
+    @Influence
+    @RunAt(11pm)
+    shouldGoToBedEarly() {
+        person.goToSleep(); 
+    }
+
+But unfortunately such API does not exist. Well, the method does *exist* but the
+actual implementation leaves much to desire. 
+
+
+
+
+
+
+
 
 
 
