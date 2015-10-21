@@ -89,6 +89,17 @@ test](http://www.sleepeducation.com/disease-detection/multiple-sleep-latency-tes
 A person with no sleep debt cannot, in fact, fall asleep even during the
 afternoon dip in alertness.
 
+A quick glance into our person API reveals that the alertness measurement is
+actually only a kind of proxy:
+
+    float alertness() {
+        return normalizeToScale(this.observeAlertness()), 0..10);
+    }
+
+
+
+
+
 
 
 
