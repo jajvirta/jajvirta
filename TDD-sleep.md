@@ -120,7 +120,7 @@ monkey-patch the check itself to something like:
         try {
             assertTrue(person.alertness() > 8);
         } catch AssertionError {
-            log.warn("Everything's fine. I'll just drink some coffee.");
+            log.info("Everything's fine. I'll just drink some coffee.");
         }
     }
 
@@ -151,7 +151,7 @@ make practically no incluence to the system in the long run. This design has its
 own strengths and weaknesses, but it's unfortunate that a method such as
 goToSleep() is even available. It leaves us with a false sense of being to able
 to decide when we are going to sleep and eventually the system would
-monkey-patch the alertness as shown above.
+monkey-patch the alertness test as shown above.
 
 If we glance into the implementation of methods such as goToSleep(), we'll find
 that they are something like this:
@@ -180,6 +180,7 @@ but only because the over-whelming sleepyness overrides all other functions. The
 *delay* in the whenRewardedFor() method actually starts giving extremely low
 values. 
 
+## Sounds like a reasonable implementation to me, eh?
 
 Now, this is not necessarily a hopeless approximation of reasonable boundaries
 for the running system. For hundreds of thousands of years, this is how we've
