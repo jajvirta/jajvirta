@@ -1,15 +1,17 @@
 
-Let's say you were given access to APIs involving a real person. You had
-various ways to influence, directly or indirectly, the person's behavior. You
-also had a set of measurement interfaces, though mostly badly documented and
-somewhat unreliable. On top of that, the system itself, --the person--, is a
-complex legacy system that is for all practical purposes impossible to change.
 
-Let's also assume that your task would be to optimize the effectiveness of the
-person through manipulating her sleep. 
+## The task assignment
 
-We have a testing harness that takes samples of the state of the system every
+Let's say you were given access to APIs involving a real person. You had various
+ways to influence, directly or indirectly, the person's behavior. You also had a
+set of measurement interfaces, though mostly badly documented and somewhat
+unreliable. Let's also assume that your task would be to optimize the
+effectiveness of the person through manipulating her sleep. 
+
+You have a testing harness that takes samples of the state of the system every
 few minutes. 
+
+## Understanding the system through testing
 
 The first test we might write is to make sure that the person feels alert
 during the day:
@@ -85,9 +87,9 @@ be the most realible and quick indication of suboptimal amount of sleep. In
 fact, one of the first methods to assess person's sleep debt was to measure the
 time it took for the person to fall asleep during different times during the
 day. Such measure is called the [multiple sleep latency
-test](http://www.sleepeducation.com/disease-detection/multiple-sleep-latency-test/overview-and-facts).
-A person with no sleep debt cannot, in fact, fall asleep even during the
-afternoon dip in alertness.
+test](http://www.sleepeducation.com/disease-detection/multiple-sleep-latency-test/overview-and-facts)
+(MSLT).  A person with no sleep debt cannot, in fact, fall asleep even during
+the afternoon dip in alertness.
 
 A quick glance into our person API reveals that the alertness measurement is
 actually only a kind of proxy:
@@ -96,6 +98,10 @@ actually only a kind of proxy:
         return normalizeToScale(this.observeAlertness()), 0..10);
     }
 
+It's not, by definition, objective measure and not even very reliable.
+Unfortunately no API that could give an objective measure of the sleep debt has
+been released yet. We could try to use the MSLT, but that would be a huge
+inconvenience for our actual day to day operations. 
 
 
 
