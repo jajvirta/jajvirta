@@ -38,10 +38,12 @@ You might argue that you do not feel particularly awake at 2pm. We run into a
 first major complication in the system. If you observe the samples during the
 whole awake time, you'll notice that it typically follows a recurring pattern.
 
+## Honing into the circadian cycle
+
 After a normal night of sleep, the alertness right after waking up is not very
-consistent. Especially if the person is woken by an alarm clock.  But since our
-testing framework comes with a lot of handy preprocessors, we can make sure that
-if we wake up in the right sleep phase, we should feel pretty ok: 
+consistent. Especially if the person is woken by an alarm clock. If we had a
+more comprehensive API and testing framework we could write a check for the
+early morning too:
 
     @Test
     @RunAfterWakingUp
@@ -50,11 +52,13 @@ if we wake up in the right sleep phase, we should feel pretty ok:
         assertTrue(person.alertness() > 4);
     }
 
-If the sleep phase right before waking up is {NREM_3, NREM_4}, it doesn't matter
-how you've slept ...
+If the sleep phase right before waking up is {NREM_3, NREM_4}, we cannot make
+any guarantees of the alertness of the system. And since the
+RunIfSleepPhaseRightBeforeWaking pre-processor doesn't currently exist, we
+cannot and need not make any checks about the early morning feelings. 
 
-
-If we continue prodding the system like this, a pattern like this will emerge:
+But if we continue prodding the system at different times of the waking hours, a
+pattern like this will emerge:
 
     |             
     |            -
@@ -67,9 +71,9 @@ If we continue prodding the system like this, a pattern like this will emerge:
        time of day
 
 Right after waking up, the alertness quickly rises. Then we experience a
-considerable drop in alertness typically during the afternoon --at "siesta
+considerable drop in alertness typically during the afternoon --"siesta
 time"--. Then we continue to feel more awake late into the evening until our
-sleeping hormones kick and we crash into sleep again.
+sleeping hormones kick in and we crash into sleep again.
 
 The exact shape of the curve and its position relative to the clock depends
 primarily on long-term sleep amount and the time the person woke up. The
