@@ -133,6 +133,7 @@ The optimal solution would be to just declare:
     @Influence
     @RunAt(11pm)
     shouldGoToBedEarly() {
+        // FIXME: implement some flexibility to the sleeping schedule.
         person.goToSleep(); 
     }
 
