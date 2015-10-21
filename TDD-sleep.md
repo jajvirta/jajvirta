@@ -127,6 +127,8 @@ monkey-patch the check itself to something like:
 Or even manipulating the threshold. But since we're controlling the experiment
 we don't have to worry about such unintended injections. 
 
+## How to avoid test failures for alertness()
+
 But it leaves us with the problem of constant test failures. 
 
 The optimal solution would be to just declare:
@@ -167,6 +169,14 @@ that system will disproportionally value rewards that are close in time.
 Activities that bring rewards in the distant future are heavily *discounted*.
 This feature is sometimes called [hyperbolic
 discounting](https://en.wikipedia.org/wiki/Hyperbolic_discounting).
+
+Of course, the reward for sleeping does eventually win over, but it's typically
+not because we start to appreciate the feeling our future self will experience,
+but only because the over-whelming sleepyness overrides all other functions. (The
+code sample above is simplified to emphasize the "irrational" rewarding
+mechanisms our brains work under.)
+
+
 
 
 
