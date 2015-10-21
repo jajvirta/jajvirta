@@ -173,7 +173,7 @@ discounting](https://en.wikipedia.org/wiki/Hyperbolic_discounting).
 Of course, the reward for sleeping does eventually win over, but it's typically
 not because we start to appreciate the feeling our future self will experience.
 The *delay* in the whenRewardedFor() method actually starts giving extremely low
-values. 
+values, thus increasing the anticipated reward for sleeping. 
 
 ## Sounds like a reasonable implementation to me, eh?
 
