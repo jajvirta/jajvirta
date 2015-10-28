@@ -127,8 +127,8 @@ monkey-patch the check itself to something like:
 
 (Notice the anti-pattern of try-catch-log.)
 
-Or it could manipulate the threshold. But since we're controlling the experiment
-we don't have to worry about such unintended injections. 
+Since we're controlling the experiment we don't have to worry about such
+unintended injections. 
 
 But it leaves us with the problem of constant test failures. 
 
