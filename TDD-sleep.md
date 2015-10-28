@@ -183,10 +183,10 @@ unfortunate feature of the system) that has made the situation more complicated.
 
 The unfortunate feature is the fact that our circadian cycle isn't exactly 24
 hours. It varies individually, but typically it's around 24,5 hours. If we could
-go a free-running sleeping cycle, our daily schedule would shift forward half an
-hour a day. But because we live in a society with fixed schedules and on a
-planet that has a 24 hour day, we have to force our sleeping schedule to the 24
-hour day. 
+go on a free-running sleeping cycle, our daily schedule would shift forward half
+an hour a day (on average). But because we live in a society with fixed
+schedules and on a planet that has a 24 hour day, we have to force our sleeping
+schedule to the 24 hour day. 
 
 
 
