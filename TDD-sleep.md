@@ -146,12 +146,10 @@ The optimal solution would be to just declare:
 
 But unfortunately such API does not exist for the person. Well, the *method*
 does *exist* but the actual implementation leaves much to desire. It might work
-for the first few times, and occasionally thereafter, but probability of the
-method invocation to make any difference to the running system is low enough to
-make practically no incluence at all. 
+for the first few times, and even occasionally after that. But the method turns
+into a no-op implementation after just few iterations. It doesn't do anything. 
 
-If we glance into the implementation of methods such as goToSleep(), we'll find
-that they are something like this:
+The implementation of the goToSleep() looks something like this:
 
     void goToSleep() {
         if rewardFor(sleeping) > rewardFor(this.currentActivity()) {
