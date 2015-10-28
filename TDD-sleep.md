@@ -3,13 +3,12 @@
 
 ## The task assignment
 
-Let's say you were given access to APIs involving a real person. You had various
-ways to influence, directly or indirectly, the person's behavior. You also had a
-set of measurement interfaces, though mostly badly documented and somewhat
-unreliable. Let's also assume that your task would be to optimize the
-effectiveness of the person through manipulating her sleep.  For that, you have
-a testing harness that takes samples of the state of the system every few
-minutes. 
+Let's say you were given access to APIs involving a real person. You had
+various ways to influence its behavior. You also had some measurement
+interfaces, though mostly badly documented and somewhat unreliable.  Let's also
+assume that your task is to optimize the effectiveness of the person through
+manipulating her sleep. For all this that, you have a testing framework that
+takes samples of the state of the system every few minutes. 
 
 ## Understanding the system through testing
 
@@ -26,7 +25,7 @@ where 10 means extremely alert and energized and 0 is being as close to asleep
 as possible. For first iteration, I've picked an arbitrary threshold value, but
 we'll get back to that.
 
-Now, our person isn't alert around the clock. Let's pick a time when we assert
+Now, our person isn't awake around the clock. Let's pick a time when we assert
 the alertness:
 
     @Test 
@@ -35,9 +34,9 @@ the alertness:
         assertTrue(person.alertness() > 8);
     }
 
-You might argue that you do not feel particularly awake at 2pm. We run into a
+You might say that you do not feel particularly alert at 2pm. We run into a
 first major complication in the system. If you observe the samples during the
-whole awake time, you'll notice that it typically follows a recurring pattern.
+whole awake time, you'll notice that it typically follows a pattern.
 
 ## Honing into the circadian cycle
 
@@ -182,7 +181,6 @@ for the running system. For hundreds of thousands of years, this is how we've
 decided. But it's in fact the realities of the modern life (combined with *yet
 another* unfortunate feature of the system) that has made the situation more
 complicated. 
-
 
 
 
