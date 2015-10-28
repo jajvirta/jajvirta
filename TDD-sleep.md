@@ -41,7 +41,7 @@ whole awake time, you'll notice that it typically follows a pattern.
 ## Honing into the circadian cycle
 
 After a normal night of sleep, the alertness right after waking up is not very
-consistent. Especially if the person is woken by an alarm clock. If we had a
+consistent. Especially if the person is woken up by an alarm clock. If we had a
 more comprehensive API and testing framework we could write a check for the
 early morning too:
 
@@ -55,7 +55,9 @@ early morning too:
 If the sleep phase right before waking up is {NREM_3, NREM_4}, we could not make
 any guarantees of the alertness of the system. And since the
 RunIfSleepPhaseRightBeforeWaking pre-processor doesn't currently exist, we
-cannot and need not make any checks about the early morning feelings. 
+cannot and need not make any checks about the early morning feelings. If we
+happen to wake the poor guy/girl on the proverbial wrong foot, it'll just take a
+while to get her back on track. 
 
 But if we continue prodding the system at different times of the waking hours, a
 pattern like this will emerge:
@@ -71,9 +73,9 @@ pattern like this will emerge:
        time of day
 
 Right after waking up, the alertness quickly rises. Then we experience a
-considerable drop in alertness typically during the afternoon --"siesta
-time"--. Then we continue to feel more awake late into the evening until our
-sleeping hormones kick in and we crash into sleep again.
+considerable drop in alertness typically during the afternoon, at "siesta time".
+Then we continue to feel more and more awake late into the evening. Only until
+our sleep hormones start to kick in and we crash into sleep again. 
 
 The exact shape of the curve and its position relative to the clock depends
 primarily on long-term sleep amount and the time the person woke up. The
