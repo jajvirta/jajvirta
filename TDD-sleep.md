@@ -174,7 +174,7 @@ not because we start to appreciate the feeling our future self will experience.
 The *delay* in the whenRewardedFor() method actually starts giving extremely low
 values, thus increasing the anticipated reward for sleeping. 
 
-## Sounds like a reasonable implementation to me, eh?
+## "Sounds like a reasonable implementation?" 
 
 Now, this is not necessarily a bad approximation of reasonable boundaries for
 the running system. For hundreds of thousands of years, this is how we've
