@@ -162,11 +162,11 @@ The implementation of the goToSleep() looks something like this:
         return 1 / (1 + degree * delay);
     }
 
-The rewardFor method is a time-inconsistent formula for giving value to
-delayed rewards. That's yet another unfortunate feature of the system. It means
-that system will disproportionally value rewards that are close in time.
-Activities that bring rewards in the distant future are heavily *discounted*.
-This feature is sometimes called [hyperbolic
+The rewardFor method is what psychologists call a time-inconsistent formula for
+giving value to delayed rewards. That's yet another unfortunate feature of the
+system. It means that system will disproportionally value rewards that are close
+in time.  Activities that bring rewards in the distant future are heavily
+*discounted*.  This feature is sometimes called [hyperbolic
 discounting](https://en.wikipedia.org/wiki/Hyperbolic_discounting).
 
 Of course, the reward for sleeping does eventually win over, but it's typically
@@ -176,11 +176,20 @@ values, thus increasing the anticipated reward for sleeping.
 
 ## Sounds like a reasonable implementation to me, eh?
 
-Now, this is not necessarily a hopeless approximation of reasonable boundaries
-for the running system. For hundreds of thousands of years, this is how we've
-decided. But it's in fact the realities of the modern life (combined with *yet
-another* unfortunate feature of the system) that has made the situation more
-complicated. 
+Now, this is not necessarily a bad approximation of reasonable boundaries for
+the running system. For hundreds of thousands of years, this is how we've
+decided. But it's the realities of the modern life (combined with *yet another*
+unfortunate feature of the system) that has made the situation more complicated. 
+
+The unfortunate feature is the fact that our circadian cycle isn't exactly 24
+hours. It varies individually, but typically it's around 24,5 hours. If we could
+go a free-running sleeping cycle, our daily schedule would shift forward half an
+hour a day. But because we live in a society with fixed schedules and on a
+planet that has a 24 hour day, we have to force our sleeping schedule to the 24
+hour day. 
+
+
+
 
 
 
