@@ -80,7 +80,7 @@ our sleep hormones start to kick in and we crash into sleep again.
 The exact shape of the curve and its position relative to the clock depends
 primarily on long-term sleep amount and the time the person woke up. The
 afternoon dip in alertness typically occurs right around 6-7 hours after waking
-up. So we rewrite the original test more like this:
+up. So we rewrite the original test like this:
 
     @Test
     @RunAfterWakingUp(delta=6.5 hours)
@@ -94,13 +94,13 @@ fact, one of the first methods to assess person's sleep debt was to measure the
 time it took for the person to fall asleep during different times during the
 day. Such measure is called the [multiple sleep latency
 test](http://www.sleepeducation.com/disease-detection/multiple-sleep-latency-test/overview-and-facts)
-(MSLT).  A person with no sleep debt cannot, in fact, fall asleep even during
-the afternoon dip in alertness.
+(MSLT).  For an example, a person with zero sleep debt cannot fall asleep even
+during the afternoon slump.
 
 ## Deeper look into the alertness() measure
 
 A quick glance into our person API reveals that the alertness measurement is
-actually only a kind of proxy:
+actually only a kind of a proxy:
 
     float alertness() {
         return normalizeSubjectiveObservationToScale(this.observeAlertness(), 0..10);
