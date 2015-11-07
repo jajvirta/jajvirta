@@ -182,11 +182,24 @@ decided. But it's the realities of the modern life (combined with *yet another*
 unfortunate feature of the system) that has made the situation more complicated. 
 
 The unfortunate feature is the fact that our circadian cycle isn't exactly 24
-hours. It varies individually, but typically it's around 24,5 hours. If we could
-go a free-running sleeping cycle, our daily schedule would shift forward half an
-hour a day. But because we live in a society with fixed schedules and on a
-planet that has a 24 hour day, we have to force our sleeping schedule to the 24
-hour day. 
+hours. It varies individually, but typically it's around 24,5 hours. If we
+could go a free-running sleeping cycle, our daily schedule would shift forward
+half an hour a day. But because we live in a society with fixed schedules and
+on a planet that has a 24 hour day (give or take few hours), we have to force
+our sleeping schedule to the 24 hour day.
+
+Modern life complicates our sleeping schedules by surrounding us with
+artificial light. The light, especially blue light, signals our brain that
+it's not the the time 
+
+
+## Wrapping it all together
+
+It might come as a surprise to some people but our task of optimizing the
+sleep schedule didn't include any direct attempts to control the actual
+sleeping time. It's another hidden mystery of the legacy system behind the
+API: we don't know how much sleep each individual person needs. 
+
 
 
 
