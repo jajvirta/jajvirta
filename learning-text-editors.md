@@ -10,7 +10,8 @@ and deducting the time it took you to get there, it quickly gets quite messy.
 Sure, you might be able to give a nice back-of-the-envelope calculation that
 proves that if you save your work a hundred thousand times in a decade and you
 shave off a keystroke of that, then you'll save given number of hours of time.
-But in real life, the actual calculcation quickly becomes impossible.
+But in real life, the actual calculcation quickly becomes impossible. (Of
+course you should avoid obvious inefficiencies.)
 
 But I don't think it matters. I think the reason you should start learning
 your text editor more thoroughly is simply because it's fun. It is fun to
@@ -53,14 +54,6 @@ There's some truth to the graph, but I agree with some of the Vim proponents
 that it doesn't take too long to learn enough Vim to be able to actually edit
 files. (Other editors might give a more pleasant initial experience.) But once
 you get over the initial hurdle, the possibilities of your learning ground are
-exciting. 
-
-
-
-
-
-
-
-
+exciting.
 
 
