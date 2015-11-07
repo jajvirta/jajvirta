@@ -14,11 +14,12 @@ But in real life, the actual calculcation quickly becomes impossible.
 
 But I don't think it matters. I think the reason you should start learning
 your text editor more thoroughly is simply because it's fun. It is fun to
-learn, it is fun become more proficient, and it is fun to *be* good at
-something. And perhaps even more importantly, it is fun to be able to control
-your environment. You can use the hand-wavy arguments of becoming more
-productive as an excuse to learn your text editor. And if you do, in fact,
-become faster and more efficient, all the better.
+learn, it is fun become more proficient, it is fun to *be* good at something,
+and it is even more fun to spread your proficiency to others. And furthermore
+perhaps, it is fun to be able to control your environment. You can use the
+hand-wavy arguments of becoming more productive as an excuse to learn your
+text editor. And if you do, in fact, become faster and more efficient, all the
+better.
 
 ## Hello, my name is Jarno and I'm a Vim convert. (But don't worry, I won't try to convert you.)
 
@@ -48,6 +49,11 @@ the ever so popular image below:
 
 ![Alt text](http://mrozekma.com/editor-learning-curve.png "Vim learning curve")
 
+There's some truth to the graph, but I agree with some of the Vim proponents
+that it doesn't take too long to learn enough Vim to be able to actually edit
+files. (Other editors might give a more pleasant initial experience.) But once
+you get over the initial hurdle, the possibilities of your learning ground are
+exciting. 
 
 
 
