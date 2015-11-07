@@ -20,8 +20,7 @@ your environment. You can use the hand-wavy arguments of becoming more
 productive as an excuse to learn your text editor. And if you do, in fact,
 become faster and more efficient, all the better.
 
-## Hello, my name is Jarno and I'm a Vim convert. (But don't worry, I won't
-## try to convert you.)
+## Hello, my name is Jarno and I'm a Vim convert. (But don't worry, I won't try to convert you.)
 
 I used to be a half-decent Emacs user and now I'm a half-decent Vim user. I
 can't remember the exact date when I made the dramatic shift, but it was about
