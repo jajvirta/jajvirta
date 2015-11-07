@@ -16,18 +16,17 @@ course you should avoid obvious inefficiencies.)
 But I don't think it matters. I think the reason you should start learning
 your text editor more thoroughly is simply because it's fun. It is fun to
 learn, it is fun become more proficient, it is fun to *be* good at something,
-and it is even more fun to spread your proficiency to others. And furthermore
-perhaps, it is fun to be able to control your environment. You can use the
-hand-wavy arguments of becoming more productive as an excuse to learn your
-text editor. And if you do, in fact, become faster and more efficient, all the
-better.
+and it is even more fun to spread your proficiency to others. And furthermore,
+it is fun to be able to control your environment. You can use the hand-wavy
+arguments of becoming more productive as an excuse to learn your text editor.
+And if you do, in fact, become faster and more efficient, all the better.
 
 ## Hello, my name is Jarno and I'm a Vim convert. (But don't worry, I won't try to convert you.)
 
 I used to be a half-decent Emacs user and now I'm a half-decent Vim user. I
 can't remember the exact date when I made the dramatic shift, but it was about
 a year ago because that's when I made the first commit to my `.vimrc`. One of
-the reasons for switching to Vim was that being too complacent with my
+the reasons for switching to Vim was that I was too complacent with my
 mediocre Emacs skills and I hoped that such radical switch would force me to
 learn new, better habits.
 
