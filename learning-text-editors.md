@@ -15,9 +15,10 @@ the actual calculcation quickly becomes impossible.
 But I don't think it matters. I think the reason you should start learning
 your text editor more thoroughly is simply because it's fun. It is fun to
 learn, it is fun become more proficient and it is fun to *be* good at
-something. [XXX more to start?] You can use the hand-wavy arguments of
-becoming more productive as a good excuse to learn your text editor. And if
-you, in fact, become faster and more efficient, all the better.
+something. And even more importantly, it is fun to be able to control your
+environment. [XXX move to start?] You can use the hand-wavy arguments of
+becoming more productive as an excuse to learn your text editor. And if
+you do, in fact, become faster and more efficient, all the better.
 
 ## Hello, my name is Jarno and I'm a Vim convert
 
