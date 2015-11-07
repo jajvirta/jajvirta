@@ -174,7 +174,7 @@ not because we start to appreciate the feeling our future self will experience.
 The *delay* in the whenRewardedFor() method actually starts giving extremely low
 values, thus increasing the anticipated reward for sleeping. 
 
-## Sounds like a reasonable implementation to me, eh?
+## "Sounds like a reasonable implementation?" 
 
 Now, this is not necessarily a bad approximation of reasonable boundaries for
 the running system. For hundreds of thousands of years, this is how we've
@@ -185,7 +185,7 @@ The unfortunate feature is the fact that our circadian cycle isn't exactly 24
 hours. It varies individually, but typically it's around 24,5 hours. If we
 could go a free-running sleeping cycle, our daily schedule would shift forward
 half an hour a day. But because we live in a society with fixed schedules and
-on a planet that has a 24 hour day (give or take few hours), we have to force
+on a planet that has a 24 hour day (give or take few seconds), we have to force
 our sleeping schedule to the 24 hour day.
 
 Modern life complicates our sleeping schedules by surrounding us with
@@ -199,32 +199,5 @@ It might come as a surprise to some people but our task of optimizing the
 sleep schedule didn't include any direct attempts to control the actual
 sleeping time. It's another hidden mystery of the legacy system behind the
 API: we don't know how much sleep each individual person needs. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
