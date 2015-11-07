@@ -1,5 +1,5 @@
 
-# Forget efficiency, you should learn your text editor for fun
+# Forget efficiency, you should learn your text editor because it's fun
 
 Some people suggest that you should learn a powerful text editor like Vim,
 Emacs or, say, Sublime in proper depth, because it will increase your
