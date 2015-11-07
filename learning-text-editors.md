@@ -7,8 +7,8 @@ productivity. It sure sounds like a good reason and I'm all for increased
 productivity. But if you actually start summing up your productivity increases
 and deducting the time it took you to get there, it quickly gets quite messy.
 
-XXX ? Sure, you might provide a nice back-of-the-envelope calculation that
-says that if you save your work a hundred thousand times in a decade and you
+Sure, you might be able to give a nice back-of-the-envelope calculation that
+proves that if you save your work a hundred thousand times in a decade and you
 shave off a keystroke of that, then you'll save given number of hours of time.
 But in real life, the actual calculcation quickly becomes impossible.
 
@@ -36,6 +36,18 @@ editing and now I really like it. But I'm NOT going to say that every
 programmer should start using Vim. I'm saying every programmer should learn an
 editor that is powerful enough. I know both Emacs and Vim fit the bill, but
 I'm sure Sublime and many other modern text editors are fine choices as well.
+
+I think the editor of your choice has to have multitude of ways to edit text.
+It should have a convenient way to extend its functionality. And I think you
+should be able to customize it.
+
+## Learning is fun! No, it really is.
+
+I'll save you the trouble of googling for Vim's learning curve by providing
+the ever so popular image below:
+
+![Alt text](http://mrozekma.com/editor-learning-curve.png "Vim learning curve")
+
 
 
 
