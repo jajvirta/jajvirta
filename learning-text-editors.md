@@ -62,7 +62,7 @@ convenient Unicode characters (as shown by Damian Conway in his XXX talk):
     exec "set listchars=tab:\uBB\uBB,nbsp:~,trail:\uB7"
     set list
 
-It's not a big deal, but it made me a little happier. 
+It's not a big deal, but it made me a little happier.
 
 Learning a new editor is also fun and exciting, because you are allowed to be
 a newbie again. No one, not even you ourself, is expecting you to be an expert
@@ -71,10 +71,21 @@ not on appearing competent. Obviously you shouldn't learn at the cost of
 whatever you're really doing, but eventually you will become more efficient
 and the initial hurdle will have paid off.
 
+## Store your configuration files at Github or Bitbucket
+
+Long gone are times when you worked only on one machine. 
+
+
+
 ## Build a habit of automating stuff
 
+Yegge XXX etc.
 
 
+...
+
+I didn't count how many times I've said that I'm not advocating switching to
+Vim. 
 
 
 
