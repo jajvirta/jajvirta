@@ -41,28 +41,13 @@ whole awake time, you'll notice that it typically follows a pattern.
 ## Honing into the circadian cycle
 
 After a normal night of sleep, the alertness right after waking up is not very
-consistent. Especially if the person is woken up by an alarm clock. If we had a
-more comprehensive API and testing framework we could write a check for the
-early morning too:
-
-    @Test
-    @RunAfterWakingUp
-    @RunIfSleepPhaseRightBeforeWaking({REM, NREM_1, NREM_2})
-    shouldFeelOKIfWokenInLightSleep() {
-        assertTrue(person.alertness() > 4);
-    }
-
-If the sleep phase right before waking up is {NREM_3, NREM_4}, we could not make
-any guarantees of the alertness of the system. And since the
-RunIfSleepPhaseRightBeforeWaking pre-processor doesn't currently exist, we
-cannot and need not make any checks about the early morning feelings. If we
-happen to wake the poor guy/girl on the proverbial wrong foot, it'll just take a
-while to get her back on track. 
+consistent. Sometimes you feel great right after waking, sometimes you feel
+groggy. Yeah.
 
 But if we continue prodding the system at different times of the waking hours, a
 pattern like this will emerge:
 
-    |             
+    |
     |            -
     |           / \          ^
     |    ---   /  |      alertness
