@@ -4,8 +4,9 @@
 Some people suggest that you should learn a powerful text editor like Vim,
 Emacs or, say, Sublime in proper depth, because it will increase your
 productivity. It sure sounds like a good reason and I'm all for increased
-productivity. But if you actually start summing the saved time and deducting
-the time it took you to get there, the calculation becomes impossible. 
+productivity. But if you actually start summing up the saved time and
+deducting the time it took you to get there, the calculation becomes
+impossible.
 
 But I don't think it matters. I think the reason you should start learning
 your text editor more thoroughly is simply because it's fun. It is fun to
@@ -27,13 +28,13 @@ learn new, better habits.
 
 I can't claim to be a Vim wizard yet, but I've certainly been on a interesting
 journey to learn a totally different editor. I was highly skeptical of Vim's
-basic philosophy of modality, but I eventually got used to the Vim style of
-editing and now I really like it. But I'm NOT going to say that every
-programmer should learning Vim. I am saying every programmer should learn an
-editor that is powerful enough. I know both Emacs and Vim fit the bill, but
-I'm sure Sublime and many other modern text editors are fine choices as well.
+basic philosophy of modality, but I eventually got used to it and now I really
+like modal editing. But I'm NOT saying that every programmer should learn Vim.
+I am saying that every programmer should learn an editor that is powerful
+enough. I know both Emacs and Vim fit the bill, but I'm sure Sublime and many
+other modern text editors are fine choices as well.
 
-I think the editor of your choice has to have multitude of powerful ways to edit 
+I think the editor of your choice has to have multitude of powerful ways to edit
 text. It should have a convenient way to extend its functionality. And I think you
 should be able to customize it.
 
@@ -43,16 +44,39 @@ I'll save you the trouble of googling for Vim's learning curve:
 
 ![Alt text](http://mrozekma.com/editor-learning-curve.png "Vim learning curve")
 
-There's some truth to the graph, but it misses some important points. First, you
-can manage your way around Vim in just few basic lessons. Second, you never quite learn
-Vim completely. The shape of the learning curve is different for other editors, but
-I think you should pick one that does not ceil up XXX too soon. 
+There's some truth to the graph, but it misses some important points. First,
+you can manage your way around Vim in just few basic lessons. Second, you
+never quite learn Vim completely. The shape of the learning curve is different
+for other editors, but I think you should pick one that continues to offer
+more ways to learn it and to make it more efficient for your needs.
 
 The fun of my Vim learning journey is just the fact that I know that I can always
 learn more Vim. When you look at it as an opportunity, not as a constant state of
 failure, it becomes empowering. Whenever I get the urge to learn something new 
 about my editor of choice, I know there's some aspect of it that I can master
-better. 
+better or there's some corner that I tweak to be a little better.
+
+Just recently I tweaked the setting to show trailing whitespace to more
+convenient Unicode characters (as shown by Damian Conway in his XXX talk):
+
+    exec "set listchars=tab:\uBB\uBB,nbsp:~,trail:\uB7"
+    set list
+
+It's not a big deal, but it made me a little happier. 
+
+Learning a new editor is also fun and exciting, because you are allowed to be
+a newbie again. No one, not even you ourself, is expecting you to be an expert
+at the new skill immediately and this frees you to concentrate on learning and
+not on appearing competent. Obviously you shouldn't learn at the cost of
+whatever you're really doing, but eventually you will become more efficient
+and the initial hurdle will have paid off.
+
+## Build a habit of automating stuff
+
+
+
+
+
 
 
 
