@@ -31,8 +31,8 @@ journey to learn a totally different editor. I was highly skeptical of Vim's
 basic philosophy of modality, but I eventually got used to it and now I really
 like modal editing. But I'm NOT saying that every programmer should learn Vim.
 I am saying that every programmer should learn an editor that is powerful
-enough. I know both Emacs and Vim fit the bill, but I'm sure Sublime and many
-other modern text editors are fine choices as well.
+enough. I know both Emacs and Vim fit the bill, but I'm sure Sublime,
+Notepad++ and many other modern text editors are fine choices as well.
 
 I think the editor of your choice has to have multitude of powerful ways to edit
 text. It should have a convenient way to extend its functionality. And I think you
@@ -57,10 +57,13 @@ about my editor of choice, I know there's some aspect of it that I can master
 better or there's some corner that I tweak to be a little better.
 
 Just recently I tweaked the setting to show trailing whitespace to more
-convenient Unicode characters (as shown by Damian Conway in his XXX talk):
+convenient Unicode characters (as shown by Damian Conway in his [More
+Instantly Better Vim](https://www.youtube.com/watch?v=aHm36-na4-4)):
 
-    exec "set listchars=tab:\uBB\uBB,nbsp:~,trail:\uB7"
+    exec "set listchars=tab:\uBB\uBB,nbsp:~,trail:\uB7"    
     set list
+
+![](http://eivoittoa.fi/~jii/trail.png)
 
 It's not a big deal, but it made me a little happier.
 
@@ -72,6 +75,7 @@ at the new skill immediately and this frees you to concentrate on learning and
 not on appearing competent. Obviously you shouldn't learn at the cost of
 whatever you're really doing, but eventually you will become more efficient
 and the initial hurdle will have paid off.
+
 
 
 
