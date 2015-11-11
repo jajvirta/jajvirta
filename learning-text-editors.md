@@ -1,21 +1,21 @@
 
 # Nevermind efficiency, study your text editor because it's fun
 
-Some people suggest that you should learn a powerful text editor like Vim,
-Emacs or, say, Sublime in proper depth, because it will increase your
+Some people say that you should learn a powerful text editor like for example
+Vim, Emacs, or Sublime in proper depth, because it will increase your
 productivity. It sure sounds like a good reason and I'm all for increased
 productivity. But if you actually start summing up the saved time and
-deducting the time it took you to get there, the calculation becomes
+deducting the time it took you to get there, the calculation quickly becomes
 impossible.
 
 But I don't think it matters. I think the reason you should start learning
 your text editor more thoroughly is simply because it's fun. It is fun to
 learn. It is fun to become more proficient. It is fun to *be* good at
-something.  And it is even more fun to spread your proficiency to others. And
-furthermore, it is fun to be able to control your environment. You can use the
-hand-wavy arguments of becoming more productive as an excuse to learn your
-text editor.  And if you do become faster and more efficient, all
-the better.
+something.  And it is even more fun to spread your proficiency to others.
+
+You can use the hand-wavy arguments of becoming more productive as an excuse
+to learn your text editor.  And if you do become faster and more efficient,
+all the better.
 
 ## Hello, my name is Jarno and I'm a Vim convert. (But don't worry, I won't try to convert you.)
 
