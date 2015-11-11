@@ -89,7 +89,7 @@ can leverage whatever I've customized by
 
 ## Build a habit of automating stuff
 
-Steve Yegge said in [http://foo.bar](one his Drunken Blog Rants) that you
+Steve Yegge said in [one his Drunken Blog Rants](http://foo.bar) that you
 should build a habit of automating stuff. Not because automation always pays
 off as saved time, but because it's a good habit to be in. Because eventually 
 
