@@ -64,12 +64,16 @@ convenient Unicode characters (as shown by Damian Conway in his XXX talk):
 
 It's not a big deal, but it made me a little happier.
 
+## Embracing the newbie state of mind
+
 Learning a new editor is fun and exciting also because you are allowed to be a
 newbie again. No one, not even you yourself, is expecting you to be an expert
 at the new skill immediately and this frees you to concentrate on learning and
 not on appearing competent. Obviously you shouldn't learn at the cost of
 whatever you're really doing, but eventually you will become more efficient
 and the initial hurdle will have paid off.
+
+
 
 Just the feeling of becoming more efficient and proficient feels enjoyable. 
 
@@ -89,11 +93,13 @@ can leverage whatever I've customized by
 
 ## Build a habit of automating stuff
 
-Steve Yegge said in [one his Drunken Blog Rants](http://foo.bar) that you
+Steve Yegge said in [one his Drunken Blog
+Rants](https://sites.google.com/site/steveyegge2/saving-time) that you
 should build a habit of automating stuff. Not because automation always pays
-off as saved time, but because it's a good habit to be in. Because eventually 
-
-Yegge XXX etc.
+off as saved time, but because it's a good habit to be in. Because by
+constantly automating stuff you eventually become more effective and more
+productive. If you start making too detailed cost-benefit calculations, you
+will never step in the path of automation and never yield the benefits either.
 
 
 ...
