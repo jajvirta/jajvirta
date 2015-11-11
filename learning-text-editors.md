@@ -24,7 +24,7 @@ can't remember the exact date when I made the dramatic shift, but it was about
 a year ago because that's when I made the first commit to my `.vimrc`. One of
 the reasons for switching to Vim was that I was too complacent with my
 mediocre Emacs skills and I hoped that such radical switch would force me to
-learn new, better habits.
+learn better habits.
 
 I can't claim to be a Vim wizard yet, but I've certainly been on a interesting
 journey to learn a totally different editor. I was highly skeptical of Vim's
