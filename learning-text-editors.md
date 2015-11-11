@@ -64,28 +64,40 @@ convenient Unicode characters (as shown by Damian Conway in his XXX talk):
 
 It's not a big deal, but it made me a little happier.
 
-Learning a new editor is also fun and exciting, because you are allowed to be
-a newbie again. No one, not even you ourself, is expecting you to be an expert
+Learning a new editor is fun and exciting also because you are allowed to be a
+newbie again. No one, not even you yourself, is expecting you to be an expert
 at the new skill immediately and this frees you to concentrate on learning and
 not on appearing competent. Obviously you shouldn't learn at the cost of
 whatever you're really doing, but eventually you will become more efficient
 and the initial hurdle will have paid off.
 
-## Store your configuration files at Github or Bitbucket
+Just the feeling of becoming more efficient and proficient feels enjoyable. 
 
-Long gone are times when you worked only on one machine. 
+Xyz.
+
+## Appendum: store your configuration files at Github or Bitbucket
+
+One particular fun of using these customizable and tweakable editors is that I
+can leverage whatever I've customized by 
+
+##
+
+##
+
 
 
 
 ## Build a habit of automating stuff
+
+Steve Yegge said in [http://foo.bar](one his Drunken Blog Rants) that you
+should build a habit of automating stuff. Not because automation always pays
+off as saved time, but because it's a good habit to be in. Because eventually 
 
 Yegge XXX etc.
 
 
 ...
 
-I didn't count how many times I've said that I'm not advocating switching to
-Vim. 
 
 
 
