@@ -80,8 +80,11 @@ and the initial hurdle will have paid off.
 (recall my newbie experiences with learning the new editor)
 
 
-Just the feeling of becoming more efficient and proficient feels enjoyable. 
+## The feeling of becoming and being better
 
+Just the feeling of becoming more efficient and proficient feels enjoyable.
+
+## There is more joy of 
 
 ## Appendum: store your configuration files at Github or Bitbucket
 
