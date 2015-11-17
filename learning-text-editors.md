@@ -50,8 +50,8 @@ never quite learn Vim completely. The shape of the learning curve is different
 for other editors, but I think you should pick one that continues to offer
 more ways to learn it and to make it more efficient for your needs.
 
-The fun of my Vim learning journey is just the fact that I know that I can
-always learn more Vim. When you look at it as an opportunity, not as a
+The fun of my Vim learning journey is precisely the fact that I know that I
+can always learn more Vim. When you look at it as an opportunity, not as a
 constant state of failure, it becomes empowering. Whenever I get the urge to
 learn something new about Vim, I know there's some aspect of it that I can
 master better or there's some corner that I can tweak to be a little better.
