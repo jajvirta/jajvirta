@@ -65,7 +65,8 @@ Instantly Better Vim](https://www.youtube.com/watch?v=aHm36-na4-4)):
 
 ![](http://eivoittoa.fi/~jii/trail.png)
 
-It's not a big deal, but it made me a little happier.
+It's not a big deal in the grand scheme of things, but it made me a little
+happier.
 
 ## Embracing the newbie state of mind
 
@@ -76,12 +77,11 @@ not on appearing competent. Obviously you shouldn't learn at the cost of
 whatever you're really doing, but eventually you will become more efficient
 and the initial hurdle will have paid off.
 
-
+(recall my newbie experiences with learning the new editor)
 
 
 Just the feeling of becoming more efficient and proficient feels enjoyable. 
 
-Xyz.
 
 ## Appendum: store your configuration files at Github or Bitbucket
 
