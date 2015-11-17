@@ -1,5 +1,5 @@
 
-# Nevermind efficiency, study your text editor because it's fun
+# Nevermind efficiency, learn your text editor because it's fun
 
 Some people say that you should learn a powerful text editor like for example
 Vim, Emacs, or Sublime in proper depth, because it will increase your
@@ -31,8 +31,8 @@ journey to learn a totally different editor. I was highly skeptical of Vim's
 basic philosophy of modality, but I eventually got used to it and now I really
 like modal editing. But I'm NOT saying that every programmer should learn Vim.
 I am saying that every programmer should learn an editor that is powerful
-enough. I know both Emacs and Vim fit the bill, but I'm sure Sublime,
-Notepad++ and many other modern text editors are fine choices as well.
+enough. I know both **Emacs** and **Vim** fit the bill, but I'm sure **Sublime**,
+**Notepad++** and many other modern text editors are fine choices as well.
 
 I think the editor of your choice has to have multitude of powerful ways to edit
 text. It should have a convenient way to extend its functionality. And I think you
@@ -50,13 +50,13 @@ never quite learn Vim completely. The shape of the learning curve is different
 for other editors, but I think you should pick one that continues to offer
 more ways to learn it and to make it more efficient for your needs.
 
-The fun of my Vim learning journey is just the fact that I know that I can always
-learn more Vim. When you look at it as an opportunity, not as a constant state of
-failure, it becomes empowering. Whenever I get the urge to learn something new 
-about my editor of choice, I know there's some aspect of it that I can master
-better or there's some corner that I tweak to be a little better.
+The fun of my Vim learning journey is just the fact that I know that I can
+always learn more Vim. When you look at it as an opportunity, not as a
+constant state of failure, it becomes empowering. Whenever I get the urge to
+learn something new about Vim, I know there's some aspect of it that I can
+master better or there's some corner that I can tweak to be a little better.
 
-Just recently I tweaked the setting to show trailing whitespace to more
+Just recently I improved the setting to show trailing whitespace to more
 convenient Unicode characters (as shown by Damian Conway in his [More
 Instantly Better Vim](https://www.youtube.com/watch?v=aHm36-na4-4)):
 
@@ -74,7 +74,7 @@ Learning a new editor is fun and exciting also because you are allowed to be a
 newbie again. No one, not even you yourself, is expecting you to be an expert
 at the new skill immediately and this frees you to concentrate on learning and
 not on appearing competent. Obviously you shouldn't learn at the cost of
-whatever you're really doing, but eventually you will become more efficient
+whatever you're currently doing, but eventually you will become more efficient
 and the initial hurdle will have paid off.
 
 (recall my newbie experiences with learning the new editor)
